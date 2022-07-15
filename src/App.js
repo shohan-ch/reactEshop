@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 export default ()=> {
   return (
     <div>
-      <h2 className="bg-red-500"> From app</h2>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="about" element={<About />} /> */}
